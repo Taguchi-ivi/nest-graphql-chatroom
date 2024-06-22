@@ -10,10 +10,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mantine/core": "^7.10.2",
+    "@mantine/dropzone": "^7.10.2",
+    "@mantine/form": "^7.10.2",
+    "@mantine/hooks": "^7.10.2",
+    "@mantine/modals": "^7.10.2",
+    "graphql": "^16.9.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
+    "@graphql-codegen/cli": "^5.0.2",
+    "@graphql-codegen/client-preset": "^4.3.0",
+    "@parcel/watcher": "^2.4.1",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@typescript-eslint/eslint-plugin": "^7.2.0",
@@ -22,7 +31,11 @@
     "eslint": "^8.57.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
-    "typescript": "^5.2.2",
+    "postcss": "^8.4.38",
+    "postcss-preset-mantine": "^1.15.0",
+    "postcss-simple-vars": "^7.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2",
     "vite": "^5.2.0"
   }
 }
