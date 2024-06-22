@@ -20,3 +20,17 @@ docker-compose up
 ```
 npm run start:dev
 ```
+
+### frontend
+
+- npm
+
+```
+npm run dev or npm i && npm run dev
+```
+
+- codegen watch
+
+```
+npx graphql-codegen --watch --verbose
+```
